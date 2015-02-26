@@ -21,10 +21,15 @@ So if you'd like to be part of the project, please check out the [roadmap](https
 - [Telescope Roadmap](https://trello.com/b/oLMMqjVL/telescope-roadmap)
 - [Telescope Meta](http://meta.telesc.pe/) – Discussions about Telescope
 
-### Developing on Nitrous.IO
+### Developing on DigitalOcean
 
-Start hacking on this app on
-[Nitrous.IO](https://www.nitrous.io/?utm_source=github.com&utm_campaign=Telescope&utm_medium=hackonnitrous)
-in seconds:
+We use `meteor-up` package for easy deployment (mup.json, settings.json)
+*ask Ilya P. for the password*
 
-[![Hack TelescopeJS/Telescope on Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=nodejs&repo=TelescopeJS%2FTelescope&file_to_open=README.nitrous.md)
+This video explains the deployment process https://www.youtube.com/watch?v=WLGdXtZMmiI
+**WNB exceptions:**
+- we host MongoDB on DO (in the video they use compose.io), 
+so in mup.json we bo not change "setupMongo" to false and do not add MongoURL
+
+**Tips**
+- on linux run `sudo mup deploy` instead of just `mup deploy`
