@@ -24,12 +24,12 @@ So if you'd like to be part of the project, please check out the [roadmap](https
 ### Developing on DigitalOcean
 
 We use `meteor-up` package for easy deployment (mup.json, settings.json)
-*ask Ilya P. for the password*
 
 This video explains the deployment process https://www.youtube.com/watch?v=WLGdXtZMmiI
+
 **WNB exceptions:**
 - we host MongoDB on DO (in the video they use compose.io), 
-so in mup.json we bo not change "setupMongo" to false and do not add MongoURL
+so in mup.json we do not change `setupMongo` to `false` and do not add `MongoURL`
 
 **Tips**
 -`SSHPass` needs to be installed (on linux) to ssh without prompt

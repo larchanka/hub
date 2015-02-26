@@ -5,6 +5,7 @@
       "host": "188.166.16.62",
       "username": "root",
       "password": "????"
+      // ask Ilya P. for the password
       // or pem file (ssh based authentication)
       //"pem": "~/.ssh/id_rsa"
     }
