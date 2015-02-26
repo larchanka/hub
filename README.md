@@ -28,9 +28,11 @@ We use `meteor-up` package for easy deployment (mup.json, settings.json)
 This video explains the deployment process https://www.youtube.com/watch?v=WLGdXtZMmiI
 
 **WNB exceptions:**
+
 - we host MongoDB on DO (in the video they use compose.io), 
 so in mup.json we do not change `setupMongo` to `false` and do not add `MongoURL`
 
-**Tips**
+**Tips:**
+
 -`SSHPass` needs to be installed (on linux) to ssh without prompt
 - on linux run `sudo mup deploy` instead of just `mup deploy`
