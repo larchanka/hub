@@ -34,5 +34,5 @@ so in mup.json we do not change `setupMongo` to `false` and do not add `MongoURL
 
 **Tips:**
 
--`SSHPass` needs to be installed (on linux) to ssh without prompt
+- `SSHPass` needs to be installed (on linux) to ssh without prompt
 - on linux run `sudo mup deploy` instead of just `mup deploy`
