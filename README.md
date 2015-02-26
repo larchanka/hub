@@ -32,4 +32,5 @@ This video explains the deployment process https://www.youtube.com/watch?v=WLGdX
 so in mup.json we bo not change "setupMongo" to false and do not add MongoURL
 
 **Tips**
+-`SSHPass` needs to be installed (on linux) to ssh without prompt
 - on linux run `sudo mup deploy` instead of just `mup deploy`
