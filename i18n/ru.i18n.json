@@ -106,10 +106,10 @@
   //Errors
   "you_are_already_logged_in": "Вы уже вошли",
   "sorry_this_is_a_private_site_please_sign_up_first": "Извините, это частный сайт. Вначале зарегистрируйтесь.",
-  "thanks_for_signing_up": "Thanks for signing up!",
+  "thanks_for_signing_up": "Спасибо за регистрацию!",
   "the_site_is_currently_invite_only_but_we_will_let_you_know_as_soon_as_a_spot_opens_up": "Сайт пока что только по инвайтам, но мы вам сообщим, если будет открыта регистрация.",
   "sorry_you_dont_have_the_rights_to_view_this_page": "Извините, но у вас нет прав для просмотра страницы.",
-  "not_found": "Not Found!",
+  "not_found": "Не найдено!",
   "were_sorry_whatever_you_were_looking_for_isnt_here": "Извините, но что бы вы не искали, этого тут нет..",
 
   //Notifications
